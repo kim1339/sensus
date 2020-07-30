@@ -1,0 +1,6 @@
+name,readEmotion,suggestMusic,calm genre,cheer-up genre,controlClimate,suggestRelax,suggestBreaks,weeklyReport
+kimia,TRUE,TRUE,classical,pop,TRUE,FALSE,FALSE,TRUE
+shreeya,TRUE,TRUE,jazz,electronic,TRUE,FALSE,TRUE,TRUE
+wilder,TRUE,TRUE,country,rap,TRUE,TRUE,TRUE,TRUE
+youssef,TRUE,TRUE,instrumental,rock,FALSE,TRUE,FALSE,TRUE
+samiha,TRUE,TRUE,pop,disney,FALSE,FALSE,FALSE,TRUE
