@@ -43,7 +43,7 @@ users = {"name": [],
          "weeklyReport": []}
 
 
-if response() == 'yes':
+if response() == 'yes': #if 'yes' in response() or 'yeah' in response(): else: speak("Sorry, I didn't get that")
     speak("Ok, wonderful. I will ask you a few questions about yourself, and let you make selections to personalize your driving experience. First, what is your name?")
     name = response()
     users["name"].append(name)
