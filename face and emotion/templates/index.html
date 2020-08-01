@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>AutoMusic</title>
+    <style>
+    body {font-family: Trebuchet MS;}
+
+    .row {
+      display: flex;
+    }
+
+    .column {
+      flex: 33.33%;
+      padding: 5px;
+    }
+    
+    img {
+      border: 8px solid lime;
+      margin: auto;
+      display:block;}
+
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <div class="column">
+        <img src="{{ url_for('video_feed') }}" alt="Snow" style="width:100%">
+      </div>
+
+      <div class="column">
+        <img src="{{ url_for('face_id') }}" alt="Forest" style="width:100%">
+      </div>
+    <div>
+    <h1 style="text-align: center;">AutoMusic</h1>    
+  </body>
+</html>
