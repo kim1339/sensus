@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>Sensus</title>
+    <style>
+    body {
+        font-family: Trebuchet MS;
+        background-color: {{ bg_color }};
+    }
+
+    .row {
+      display: flex;
+    }
+
+    .column {
+      flex: 33.33%;
+      padding: 5px;
+    }
+    
+    img {
+      border: 8px solid lime;
+      margin: auto;
+      display: block;}
+    
+    h2 {
+        text-align:center;
+        text-decoration: underline;
+    }
+
+    #recommendations, #music {
+        border: 8px black solid;
+        display: block;
+    }
+
+    </style>
+    
+  </head>
+  
+    <h1 style="text-align: center; font-style: italic;">Welcome to Sensus...</h1>
+
+    <div class="row">
+      <div class="column" style="margin-right: 40px; margin-left: 4%; margin-bottom:200px;">
+        <h2>Emotion Analysis</h2>
+        <img src="{{ url_for('video_feed') }}" alt="Emotion Recognition Model" style="width:100%">
+      </div>
+
+      <div class="column" style="margin-right: 4%; margin-bottom: 200px;">
+        <h2>Face ID Recognition</h2>
+        <img src="{{ url_for('face_id') }}" alt="Face ID" style="width:100%">
+      </div>
+    </div>
+
+  </body>
+</html>
