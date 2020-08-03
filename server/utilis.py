@@ -102,12 +102,12 @@ def Display(face_locations, face_names, frame):
         left *= 4
         
        # Draw a box around the face
-        cv2.rectangle(frame, (left, top), (right, bottom), (0, 0, 255), 2)
+        cv2.rectangle(frame, (left, top), (right, bottom), (0, 255, 0), 2)
         
        # Draw a label with a name below the face
-        cv2.rectangle(frame, (left, bottom - 35), (right, bottom), (0, 0, 255), cv2.FILLED)
+        cv2.rectangle(frame, (left, bottom - 35), (right, bottom), (0, 255, 0), cv2.FILLED)
         font = cv2.FONT_HERSHEY_DUPLEX
-        cv2.putText(frame, "Welcome " + name, (left + 6, bottom - 6), font, 1.0, (255, 255, 255), 1)
+        cv2.putText(frame, "Welcome " + name, (left + 6, bottom - 6), font, 0.8, (0, 0, 0), 1)
         
     return frame 
 
@@ -135,8 +135,8 @@ def generate2(frame):
 ###############################################################################
 EMOTIONS_counts = {"Anger":0 ,"Disgust":0,"Fear":0, "Happy":0, "Sad":0, "Surprise":0,
  "Neutral":0}
-emotion_colors = {"Anger":"green" ,"Disgust":"blue","Fear":"green", "Happy":"red",
-                  "Sad":"black", "Surprise":"yelow","Neutral":"white"}
+emotion_colors = {"Anger":"PowderBlue" ,"Disgust":"PowderBlue","Fear":"PowderBlue", "Happy":"Turquoise",
+                  "Sad":"Yellow", "Surprise":"PowderBlue","Neutral":"Yellow"}
 
 
 def prom_color():
