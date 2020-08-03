@@ -7,7 +7,19 @@ $(document).ready(function(){
     $("#form").submit(function (event) {
         event.preventDefault()
 
-        var search = $("#search").val()
+        var emotion = $("#search").val()
+        var search
+
+        if(emotion == "sad"){
+            search = "rap live stream"
+        } else if (emotion == "angry"){
+            search = "pop"
+        } else {
+            search = emotion
+        }
+
+
+
 
         videoSearch(API_KEY,search,1)
     }) 
@@ -18,14 +30,12 @@ $(document).ready(function(){
             console.log(data)
 
             data.items.forEach(item => {
-                video = `
-                
-                <iframe width="420" height="315" src="https://www.youtube.com/embed/${item.id.videoId}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                `
+                video = `<iframe width="420" height="40" src="https://www.youtube.com/embed/${item.id.videoId}?&autoplay=1" frameborder="0"></iframe>`
 
                 $("#videos").append(video)
 
             });
         })
     }
+
 })
