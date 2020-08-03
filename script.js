@@ -7,7 +7,7 @@ $(document).ready(function(){
     $("#form").submit(function (event) {
         event.preventDefault()
 
-        var emotion = $("#search").val()
+        var emotion = $("#emotion").val()
         var search
 
         if(emotion == "sad"){
