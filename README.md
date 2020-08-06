@@ -5,13 +5,14 @@ You can access the project site at https://kim1339.github.io/sensus/
 You can access the project slides here
 
 **Project:** A personalized, content and action recommendation system based on the detected emotions of the specific user (driver). 
-Project components include:
+
+**Project components include:**
 - A custom-built emotion recognition model that detects basic emotions from facial expressions in real-time (uses video/webcam input)
 - Face ID and recognition
 - Dataframe of user preferences and pictures
 - Voice agent (uses a text-to-speech Python library)
 - Recommendation functions, and using the YouTube API and JavaScript to provide music recommendations
-- A final, simplified web application made using Flask
+- A final, simple web application made using Flask
 
 The h5 file for the model weights and architecture can be accessed here: https://drive.google.com/file/d/1rS6icpUGQwIGMecRsOKuQvZAhKBV2SYu/view?usp=sharing
 
