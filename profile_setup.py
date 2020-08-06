@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
+# this was just a test on the side (not part of the project) and is incomplete
+# trying to setup user preferences and settings using a conversational voice agent (speech-to-text and text-to-speech)
 
 import pyttsx3
 import speech_recognition as sr
