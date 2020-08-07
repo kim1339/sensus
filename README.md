@@ -6,6 +6,8 @@ You can access the project slides here
 
 You can see our YouTube video [here](https://www.youtube.com/watch?v=F5t9dTnxBsc&feature=youtu.be)
 
+The h5 file for the model weights and architecture can be accessed here: https://drive.google.com/file/d/1rS6icpUGQwIGMecRsOKuQvZAhKBV2SYu/view?usp=sharing
+
 **Project:** A personalized, content and action recommendation system based on the detected emotions of the specific user (driver). 
 
 **Project components include:**
@@ -15,8 +17,6 @@ You can see our YouTube video [here](https://www.youtube.com/watch?v=F5t9dTnxBsc
 - Voice agent (uses a text-to-speech Python library)
 - Recommendation functions, and using the YouTube API and JavaScript to provide music recommendations
 - A final, simple web application made using Flask
-
-The h5 file for the model weights and architecture can be accessed here: https://drive.google.com/file/d/1rS6icpUGQwIGMecRsOKuQvZAhKBV2SYu/view?usp=sharing
 
 ## Softwares and packages required:
 
