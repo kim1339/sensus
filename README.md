@@ -1,6 +1,6 @@
 # EMPath 2020 Makeathon Project Repo:
 
-You can access the project site at https://kim1339.github.io/sensus/
+You can access the GitHub repository [here](https://github.com/kim1339/sensus)
 
 You can access the project slides here
 
