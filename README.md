@@ -4,6 +4,8 @@ You can access the project site at https://kim1339.github.io/sensus/
 
 You can access the project slides here
 
+You can see our YouTube video [here](https://www.youtube.com/watch?v=F5t9dTnxBsc&feature=youtu.be)
+
 **Project:** A personalized, content and action recommendation system based on the detected emotions of the specific user (driver). 
 
 **Project components include:**
