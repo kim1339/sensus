@@ -2,7 +2,7 @@
 
 You can access the GitHub repository [here](https://github.com/kim1339/sensus)
 
-You can access the project slides here
+You can access the project slides [here](https://docs.google.com/presentation/d/19zctKSlvC9xG-crcCPqZreYI21flpVQmnzCBM1QUE_M/edit?usp=sharing)
 
 You can see our YouTube video [here](https://www.youtube.com/watch?v=F5t9dTnxBsc&feature=youtu.be)
 
